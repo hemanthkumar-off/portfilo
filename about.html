@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+</head>
+<style>
+    .one{
+        font-size: xx-large;
+        color: antiquewhite;
+    }
+    .timeline{
+        position: relative;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    .container{
+        padding: 10px 50px;
+        position: relative;
+        width: 50%;
+    }
+    .textbox{
+        padding: 20px 30px;
+        background: whitesmoke;
+        position: relative;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+    .left-container{
+        left: 0;
+    }
+    .right-container{
+        left: 50%;
+    }
+    .container img{
+
+        position: absolute;
+        width: 40px;
+        border-radius: 50%;
+        right: -20px;
+        top: 32px;
+        z-index: 10;
+    }
+    .right-container img{
+        left: -20px;
+    }
+    .textbox h2{
+        font-weight: 600;
+    }
+    .textbox small{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .left-container-arrow{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 28px;
+        z z-index: 1;
+        border-top: 15px solid transparent;
+        border-bottom:15px solid transparent;
+        border-left:15px solid white;
+        right: -15px;
+    }
+    .right-container-arrow{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 28px;
+        z z-index: 1;
+        border-top: 15px solid transparent;
+        border-bottom:15px solid transparent;
+        border-right:15px solid white;
+        left: -15px;
+    }
+    .textbox:hover{
+        color:chocolate
+    }
+
+</style>
+<body style="background-color:black; color:blueviolet">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+    <img src="IMG_20250819_220008_059 copy.jpg" alt="image" width="400" height="400">
+    </center>
+    <p class="one"> Hello! I’m HEMANTHKUMAR.J. A second-year Computer Science and Engineering student with a strong interest in web development. I enjoy building creative and user-friendly websites, and my portfolio is the result of my own learning and exploration.
+I believe in continuous growth, so while my portfolio reflects what I know today, it will keep improving as I gain more skills and experience. My goal is to become a professional web developer, contributing innovative ideas and practical solutions to real-world problems.</p>
+<div class="timeline">
+    <div class="container left-container">
+        <img src="77b9c167a647ceb4580e5ba480bfc573.jpg">
+        <div class="textbox">
+            <h2>HIGHER SECONDARY</h2>
+            <small>2024</small>
+            <p>MUTHARAIYAR HIGHER SECONDARY SCHOOL</p>
+            <span class="left-container-arrow"></span>
+        </div>
+    </div>
+</div>
+<div class="timeline">
+    <div class="container right-container">
+         <img src="301-3012342_graduation-college.jpg">
+        <div class="textbox">
+            <h2 style="font-size: medium;">COLLEGE</h2>
+            <small>2024-2028</small>
+            <p>MAILAM ENGINEERING COLLEGE</p>
+            <small>curently second year</small>
+            <span class="right-container-arrow"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
